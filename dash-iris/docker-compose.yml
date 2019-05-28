@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  dash:
+    build : .
+    volumes :
+     - .:/b
+    ports:
+     - 8050:8050
+#     entrypoint : "/bin/bash"
+#     stdin_open: true
+#     tty: true
